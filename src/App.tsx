@@ -6,7 +6,7 @@ function App() {
   return (
     // 追加箇所
     <div className="App">
-      <Row fetchUrl={requests.fetchNetflixOriginals} />
+      <Row title="" fetchUrl={requests.fetchNetflixOriginals} isLargeRow/>
     </div>
   )
 }
